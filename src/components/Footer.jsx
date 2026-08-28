@@ -46,7 +46,7 @@ export default function Footer() {
           </Link>
 
           <a
-            href="https://github.com/furqansup/mckinsey-research-engine"
+            href="https://github.com/aryanroy666/Meridian-AI-Market-Research-Strategy-Engine.git"
             target="_blank"
             rel="noreferrer"
             className={`text-[13px] flex items-center gap-1 font-normal ${theme == "dark" ? "text-ink-soft/70" : "text-gray-700"} transition hover:text-ink`}
