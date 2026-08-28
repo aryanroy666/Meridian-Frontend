@@ -447,6 +447,8 @@ export default function ResearchProgress() {
               leading-tight
               tracking-tight
               sm:text-3xl
+              line-clamp-3
+              lg:line-clamp-4
             "
           >
             {query}
