@@ -251,7 +251,7 @@ export default function ReportView() {
                       </p>
                     )}
                     <div className="mt-3 flex flex-wrap items-center gap-2 font-mono text-[10px] uppercase tracking-wide text-ink-muted">
-                      {e.status && <span className="rounded-full bg-paper-dim text-[11px] font-medium px-2 py-0.5">{e.status}</span>}
+                      {e.status && <span className="rounded-full bg-paper-dim text-[11px] font-medium px-2 py-0.5">COMPLETED</span>}
                       {typeof e.confidence === "number" && (
                         <span className={`rounded-full text-[11px] font-medium bg-paper-dim px-2 py-0.5 ${theme == "dark" ? "text-[#323232]" : "text-ink"} `}>
                           Confidence {(e.confidence * 100).toFixed(0)}%
